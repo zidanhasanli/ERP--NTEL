@@ -14,7 +14,7 @@ public class ConfigurationReader {
             file.close();
 
         } catch(IOException e){
-            System.out.println("File not found with given path!!!");
+            System.out.println("File not found with given path!");
             e.printStackTrace();
         }
     }
